@@ -1,0 +1,667 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Pedido recebido - KNN Idiomas</title>
+    <style type="text/css">
+        }
+
+        body {
+          margin: 0;
+          padding: 0;
+          min-width: 100% !important;
+          font-family: 'Fira Sans', sans-serif;
+        }
+
+        img {
+          height: auto;
+        }
+        .content {
+          width: 100%;
+          max-width: 600px;
+        }
+        .header {
+          height: 10px;
+        }
+        .innerpadding {
+          padding: 30px 50px 30px 50px;
+        }
+        .borderbottom {
+          border-bottom: 1px solid #f2eeed;
+        }
+        .subhead {
+          font-size: 15px;
+          color: #ffffff;
+          font-family: 'Fira Sans', sans-serif;
+          letter-spacing: 10px;
+        }
+        .h1,
+        .h2,
+        .h3,
+        .bodycopy,
+        .bodycopysmall,
+        .bodycopysmaller {
+          color: black;
+          font-family: 'Fira Sans', sans-serif;
+          text-align: center;
+        }
+        .h1 {
+          font-size: 33px;
+          line-height: 38px;
+          font-weight: bold;
+        }
+        .h2 {
+          padding: 0 0 50px 0;
+          font-size: 28px;
+          line-height: 28px;
+          font-weight: 800;
+          color: white;
+        }
+        .h3 {
+          font-size: 18px;
+          line-height: 18px;
+        }
+        .bodycopy {
+          font-size: 22px;
+          line-height: 32px;
+          font-weight: 200;
+          padding-bottom: 20px;
+        }
+        .bodycopysmall {
+          font-size: 18px;
+          line-height: 28px;
+          font-weight: 200;
+          padding-bottom: 20px;
+        }
+        .bodycopysmaller {
+          font-size: 16px;
+          line-height: 24px;
+          font-weight: 200;
+          padding: 30px 0;
+        }
+        .buttonwrapper {
+          border-radius: 4px;
+          width: 100%;
+          margin-bottom: 50px;
+        }
+        .button {
+          text-align: center;
+          font-size: 24px;
+          font-family: 'Fira Sans', sans-serif;
+          font-weight: bold;
+          padding: 0 30px 0 30px;
+        }
+        .button a {
+          color: #ffffff;
+          text-decoration: none;
+        }
+        .footer {
+          padding: 0 30px 30px 30px;
+        }
+        .footercopy {
+          font-family: 'Fira Sans', sans-serif;
+          font-size: 14px;
+          color: black;
+          padding: 20px 0;
+        }
+        .footercopy a {
+          color: black;
+          text-decoration: underline;
+        }
+
+        @media only screen and (max-width: 550px),
+          screen and (max-device-width: 550px) {
+          body[yahoo] .hide {
+            display: none !important;
+          }
+          body[yahoo] .buttonwrapper {
+            background-color: transparent !important;
+          }
+          body[yahoo] .button {
+            padding: 0px !important;
+          }
+          body[yahoo] .button a {
+            background-color: #f92754;
+            padding: 15px 15px 13px !important;
+          }
+          body[yahoo] .unsubscribe {
+            display: block;
+            margin-top: 20px;
+            padding: 10px 50px;
+            background: #2f3942;
+            border-radius: 5px;
+            text-decoration: none !important;
+            font-weight: bold;
+          }
+        }
+
+        /*@media only screen and (min-device-width: 601px) {
+      .content {width: 600px !important;}
+      .col425 {width: 425px!important;}
+      .col380 {width: 380px!important;}
+      }*/
+    </style>
+  </head>
+
+  <body yahoo bgcolor="#F5F5F5">
+    <table
+      width="100%"
+      bgcolor="#F5F5F5"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+    >
+      <tr>
+        <td>
+          <!--[if (gte mso 9)|(IE)]>
+      <table width="600" align="center" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td>
+    <![endif]-->
+          <table
+            class="content"
+            align="center"
+            cellpadding="0"
+            cellspacing="0"
+            border="0"
+            style="color: black"
+          >
+            <tr>
+              <td bgcolor="#F92754" class="header"></td>
+            </tr>
+            <tr>
+              <td class="borderbottom" bgcolor="#F5F5F5">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td
+                      height="161"
+                      style="padding: 0 0 0 0; text-align: center"
+                    >
+                      <!-- ENDEREÇO COMPLETO ONDE A IMAGEM VAI SER HOSPEDADA-->
+                      <img
+                        class="fix"
+                        src="Email pedido-03.png"
+                        width="700"
+                        height="161"
+                        border="0"
+                        alt="KNN Idiomas - We're on top"
+                      />
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="innerpadding"
+                style="
+                  border-top-right-radius: 15px;
+                  border-top-left-radius: 15px;
+                  background-color: #fff;
+                "
+              >
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td class="bodycopy">
+                      <p
+                        style="
+                          color: black;
+                          font-size: 22px;
+                          font-family: 'Fira Sans', sans-serif;
+                          font-weight: 400;
+                        "
+                      >
+                        Olá, <b>*|PRIMEIRO_NOME|*</b>.
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="h2">O seu pedido foi recebido com sucesso!</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <table
+                        width="100%"
+                        border="0"
+                        cellspacing="10"
+                        cellpadding="20"
+                      >
+                        <tr>
+                          <td
+                            width="290"
+                            style="text-align: center"
+                            bgcolor="#F2F7FF"
+                          >
+                            <p
+                              style="
+                                color: black;
+                                font-size: 18px;
+                                font-family: 'Fira Sans', sans-serif;
+                                font-weight: 800;
+                                margin: 0;
+                              "
+                            >
+                              Número do pedido
+                            </p>
+                            <p
+                              style="
+                                color: black;
+                                font-size: 22px;
+                                font-family: 'Fira Sans', sans-serif;
+                                font-weight: 400;
+                                margin: 0;
+                              "
+                            >
+                              *|#00000|*
+                            </p>
+                          </td>
+                          <td
+                            width="290"
+                            style="text-align: center"
+                            bgcolor="#F2F7FF"
+                          >
+                            <p
+                              style="
+                                color: black;
+                                font-size: 18px;
+                                font-family: 'Fira Sans', sans-serif;
+                                font-weight: 800;
+                                margin: 0;
+                              "
+                            >
+                              Data do pedido
+                            </p>
+                            <p
+                              style="
+                                color: black;
+                                font-size: 22px;
+                                font-family: 'Fira Sans', sans-serif;
+                                font-weight: 400;
+                                margin: 0;
+                              "
+                            >
+                              *|00/00/0000|*
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p
+                        style="
+                          color: black;
+                          font-size: 18px;
+                          font-family: 'Fira Sans', sans-serif;
+                          font-weight: 800;
+                          text-align: center;
+                          margin: 50px 0;
+                        "
+                      >
+                        Acompanhe o andamento do seu pedido:
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      height="160"
+                      style="padding: 0 0 0 0; text-align: center"
+                    >
+                      <!-- ENDEREÇO COMPLETO ONDE A IMAGEM VAI SER HOSPEDADA-->
+                      <img
+                        class="fix"
+                        src="Email pedido-06.png"
+                        width="568"
+                        height="160"
+                        border="0"
+                        alt="Pedido em aprovação"
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p
+                        style="
+                          color: black;
+                          font-size: 18px;
+                          font-family: 'Fira Sans', sans-serif;
+                          font-weight: 800;
+                          text-align: center;
+                          margin: 50px 0;
+                        "
+                      >
+                        Resumo do pedido:
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <table
+                        width="100%"
+                        border="0"
+                        cellspacing="0"
+                        cellpadding="15"
+                        style="
+                          box-shadow: 1px 1px 9px rgb(209, 209, 209);
+                          
+                          );
+                        "
+                      >
+                        <tr bgcolor="#27E793">
+                          <th
+                            style="
+                              text-align: left;
+                              font-family: 'Fira Sans', sans-serif;
+                            "
+                          >
+                            Produto;
+                          </th>
+                          <th
+                            style="
+                              text-align: left;
+                              font-family: 'Fira Sans', sans-serif;
+                            "
+                          >
+                            Qtd.
+                          </th>
+                        </tr>
+                        <tr bgcolor="#F2F7FD">
+                          <td>*|LIVRO_EDICAO|*</td>
+                          <td>*|0|*</td>
+                        </tr>
+                        <tr bgcolor="#ffffff">
+                          <td>*|LIVRO_EDICAO|*</td>
+                          <td>*|0|*</td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <table
+                        width="100%"
+                        border="0"
+                        cellspacing="0"
+                        cellpadding="10"
+                        style="
+                          border: 2px solid #27e793;
+                          margin-top: 30px;
+                          padding: 20px;
+                          box-shadow: 1px 1px 9px rgb(209, 209, 209);
+                        "
+                      >
+                        <tr>
+                          <th
+                            style="
+                              text-align: left;
+                              font-family: 'Fira Sans', sans-serif;
+                            "
+                            width="30%"
+                          >
+                            Valor total:
+                          </th>
+                          <td width="70%">*|R$ 000,00|*</td>
+                        </tr>
+                        <tr>
+                          <th
+                            style="
+                              text-align: left;
+                              font-family: 'Fira Sans', sans-serif;
+                            "
+                          >
+                            Condição de <br />pagamento:
+                          </th>
+                          <td>*|0 dias|*</td>
+                        </tr>
+                        <tr>
+                          <th
+                            style="
+                              text-align: left;
+                              font-family: 'Fira Sans', sans-serif;
+                            "
+                          >
+                            Total de itens:
+                          </th>
+                          <td>*|0|*</td>
+                        </tr>
+                        <tr>
+                          <th
+                            style="
+                              text-align: left;
+                              font-family: 'Fira Sans', sans-serif;
+                            "
+                          >
+                            Transportadora:
+                          </th>
+                          <td>*|TRANSPORTADORA|*</td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <table
+                        width="100%"
+                        border="0"
+                        cellspacing="0"
+                        cellpadding="10"
+                        style="
+                          margin-top: 30px;
+                          padding: 20px;
+                          box-shadow: 1px 1px 9px rgb(209, 209, 209);
+                        "
+                        bgcolor="#F2F7FD"
+                      >
+                        <tr>
+                          <th
+                            style="
+                              text-align: left;
+                              font-family: 'Fira Sans', sans-serif;
+                            "
+                            width="30%"
+                          >
+                            Endereço de <br />entrega:
+                          </th>
+                          <td width="70%">*|ENDERECO|*</td>
+                        </tr>
+                      </table>
+                      <table
+                        width="100%"
+                        border="0"
+                        cellspacing="0"
+                        cellpadding="10"
+                        style="
+                          padding: 20px;
+                          box-shadow: 1px 1px 9px rgb(209, 209, 209);
+                        "
+                        bgcolor="#fff"
+                      >
+                        <tr>
+                          <td
+                            width="100%"
+                            style="
+                              text-align: center;
+                              font-size: 14px;
+                              font-family: 'Fira Sans', sans-serif;
+                            "
+                          >
+                            A entrega está prevista para até 7 dias úteis após
+                            aprovação do pedido.<br />Para retirar seu pedido no
+                            local, aguarde o e-mail com a liberação do mesmo.
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#F5F5F5">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td
+                      height="161"
+                      style="padding: 0 0 0 0; text-align: center"
+                    >
+                      <a
+                        href="https://franqueadoknnidiomas.com.br/"
+                        target="_blank"
+                      >
+                        <!-- ENDEREÇO COMPLETO ONDE A IMAGEM VAI SER HOSPEDADA-->
+                        <img
+                          class="fix"
+                          src="Email pedido-07.png"
+                          width="700"
+                          height="161"
+                          border="0"
+                          alt="Blog do Franqueado"
+                        />
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="footer"
+                style="
+                  border-bottom-right-radius: 15px;
+                  border-bottom-left-radius: 15px;
+                  background-color: #fff;
+                "
+              >
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td align="center" style="padding: 20px 0 0 0">
+                      <table border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td
+                            width="207"
+                            style="text-align: center; padding: 0 100px 0 10px"
+                          >
+                            <a
+                              href="https://www.knnidiomas.com.br"
+                              target="_blank"
+                            >
+                              <!-- ENDEREÇO COMPLETO ONDE A IMAGEM VAI SER HOSPEDADA-->
+                              <img
+                                src="Email pedido-08.png"
+                                height="38"
+                                alt="Live the road. Love the journey."
+                                border="0"
+                              />
+                            </a>
+                          </td>
+                          <td
+                            width="37"
+                            style="text-align: center; padding: 0 10px 0 10px"
+                          >
+                            <a
+                              href="https://www.facebook.com/knnidiomasoficial/"
+                              target="_blank"
+                            >
+                              <!-- ENDEREÇO COMPLETO ONDE A IMAGEM VAI SER HOSPEDADA-->
+                              <img
+                                src="Email pedido-10.png"
+                                height="37"
+                                alt="Facebook"
+                                border="0"
+                              />
+                            </a>
+                          </td>
+                          <td
+                            width="37"
+                            style="text-align: center; padding: 0 10px 0 10px"
+                          >
+                            <a
+                              href="https://www.instagram.com/knnidiomasbrasil/"
+                              target="_blank"
+                            >
+                              <!-- ENDEREÇO COMPLETO ONDE A IMAGEM VAI SER HOSPEDADA-->
+                              <img
+                                src="Email pedido-09.png"
+                                height="37"
+                                alt="Instagram"
+                                border="0"
+                              />
+                            </a>
+                          </td>
+                          <td
+                            width="37"
+                            style="text-align: center; padding: 0 10px 0 10px"
+                          >
+                            <a
+                              href="https://www.youtube.com/user/knnidiomas"
+                              target="_blank"
+                            >
+                              <!-- ENDEREÇO COMPLETO ONDE A IMAGEM VAI SER HOSPEDADA-->
+                              <img
+                                src="Email pedido-11.png"
+                                height="37"
+                                alt="Youtube"
+                                border="0"
+                              />
+                            </a>
+                          </td>
+                          <td
+                            width="37"
+                            style="text-align: center; padding: 0 10px 0 10px"
+                          >
+                            <a
+                              href="https://twitter.com/knn_brasil"
+                              target="_blank"
+                            >
+                              <!-- ENDEREÇO COMPLETO ONDE A IMAGEM VAI SER HOSPEDADA-->
+                              <img
+                                src="Email pedido-12.png"
+                                height="37"
+                                alt="Twitter"
+                                border="0"
+                              />
+                            </a>
+                          </td>
+                          <td
+                            width="37"
+                            style="text-align: center; padding: 0 10px 0 10px"
+                          >
+                            <a
+                              href="https://www.tiktok.com/@knnbrasil"
+                              target="_blank"
+                            >
+                              <!-- ENDEREÇO COMPLETO ONDE A IMAGEM VAI SER HOSPEDADA-->
+                              <img
+                                src="Email pedido-13.png"
+                                height="37"
+                                alt="TikTok"
+                                border="0"
+                              />
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <!--[if (gte mso 9)|(IE)]>
+          </td>
+        </tr>
+    </table>
+    <![endif]-->
+        </td>
+      </tr>
+      <tr>
+        <td align="center" class="footercopy">
+          <p style="color: #9ba6b8; padding: 20px 0">
+            Essa mensagem é automática. Não responda esse e-mail.
+          </p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
